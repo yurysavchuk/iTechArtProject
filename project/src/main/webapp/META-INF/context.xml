@@ -1,0 +1,9 @@
+<Context>
+    <Resource name="jdbc/yury_savchuk" auth="Container" type="javax.sql.DataSource"
+              maxActive="50"
+              maxIdle="30"
+              maxWait="10000"
+              username="yury" password="yury"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/yury_savchuk?characterEncoding=UTF-8" />
+</Context>

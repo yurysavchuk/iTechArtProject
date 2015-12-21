@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    border-bottom: 0px;
+}
+
+.avaImg {
+    height: 150px;
+    width: 150px;
+}
+
+#contacts {
+    margin: 0;
+    width: 80%;
+    height: 80%;
+}
+
+#contacts td {
+    margin: 0;
+    height: 10%;
+}
+
+#contacts tr {
+    margin: 0;
+    height: 10%;
+}
+
+#header {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    height: 15%;
+    padding: 0;
+    background-color: #333333;
+    margin: 0;
+}
+
+#header p {
+    color: #E4E4E4;
+    font: bold 140% Trebuchet MS;
+    padding-top: 2.5%;
+    padding-left: 15%;
+}
+
+#header h3 {
+    color: white;
+    margin: 40px 0 40px 400px;
+}
+
+#content {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #F8F8F8;
+    margin-bottom: 0;
+}
+
+#content form label {
+    font: 140% Trebuchet MS;
+    color: #2A2A2A;
+}
+
+
+
+.index {
+    height: 65%;
+}
+
+.edit {
+    height: 100%;
+}
+
+.indexWrap {
+    height: 100%
+}
+
+.buttons {
+
+    top: 0px;
+    left: 200px;
+    height: 5%;
+    width: 100%;
+    margin-left: 10%;
+
+}
+
+.button {
+    display: inline-block;
+    color: #1F7CCD;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    width: 150px;
+}
+
+p {
+    margin-bottom: 25%;
+}
+
+p label {
+    margin-left: 10%;
+    font: italic bold 18px Times New Roman;
+    padding-top: 25px;
+    margin-bottom: -2%;
+}
+
+p .inp {
+    position: relative;
+    left: 25%;
+    height: 5%;
+    width: 35%;
+}
+
+.adrLbl {
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+
+p .address {
+    position: absolute;
+    left: 45%;
+    height: 4%;
+    width: 35%;
+    margin-top: -2.5%;
+}
+
+.textArea {
+    margin-left: 10%;
+    margin-top: 2.5%;
+    height: 50%;
+    width: 50%;
+}
+
+table {
+    margin: 0;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+
+.tableButton {
+    margin-top: 5%;
+    position: relative;
+    left: 80%;
+}
+
+/****************/
+* {
+    font-family: Areal;
+}
+
+.b-popup {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    display: none;
+}
+
+.b-popup .b-popup-content {
+    margin: 80px 100px 40px 500px;
+    width: 470px;
+    padding: 0px 0px 10px 10px;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+    display: none;
+}
+
+.enable {
+    display: block;
+}
+
+.closeBtn {
+    content: "закрыть";
+    display: block;
+    padding: 0 1%;
+    border-width: 4px 4px 0 4px;
+    border-radius: 5px 5px 0 0;
+    text-align: right;
+    color: rgb(88, 125, 164);
+    position: relative;
+    left: 430px;
+}
+
+.lblPopup {
+    margin-left: 30px;
+}
+
+.inpPopup {
+    position: absolute;
+    left: 700px;
+    height: 30px;
+    width: 250px;
+
+}
+
+.txtAreaPopup {
+    position: absolute;
+    margin-bottom: 50px;
+    left: 700px;
+    height: 100px;
+    width: 250px;
+}
+
+.popupExit {
+
+}
+
+.popupCntnt {
+    margin-bottom: 20px;
+}
+
+.popupBtns {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+/***********/
+.error-message {
+    color: red;
+    position: relative;
+    left: 600px;
+    top: 5px;
+}
+
+.invisible {
+    display: none;
+}
+
+.inputDiv {
+    overflow: hidden;
+    width: 95px;
+    height: 37px;
+    cursor: pointer;
+    color: black;
+    background-color: #B8B8B8;
+}
+
+.inputFile {
+    opacity: 0;
+    filter: alpha(opacity:0);
+    font-size: 199px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    margin-left: -450px;
+}
+
+.fileform {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 26px;
+    overflow: hidden;
+    padding: 2px;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+    width: 230px;
+}
+
+.fileform .selectbutton {
+    background-color: #A2A3A3;
+    border: 1px solid #939494;
+    border-radius: 2px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 2px 6px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+
+.fileform #upload {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    font-size: 150px;
+    height: 30px;
+    z-index: 20;
+}
+
+.fileform #fileformlabel {
+    background-color: #FFFFFF;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 2px;
+    text-align: left;
+    vertical-align: middle;
+    width: 160px;
+}
+
+#footer {
+    background-repeat: no-repeat;
+    background-color: #333333;
+    height: 15%;
+    float: bottom;
+    top: 50px;
+    margin-top: 0px;
+}
+
+#tableId {
+    width: 100%;
+    position: relative;
+    margin-left: 10%;
+}
+
+#photoDiv {
+    float: left;
+    margin-left: 8%;
+}
+
+form {
+    margin-left: 20%;
+}
+
+.fileTable {
+    width: 80%;
+}
+
+.fileTableDiv {
+    width: 80%;
+}
+
+.fileTableDiv table td {
+    font: 120% Trebuchet MS;
+    color: #2A2A2A;
+}
+
+.linkDiv {
+    width: 100%;
+    height: 10%;
+    background-color: #F3F3F3;
+}
+
+.linkDiv p {
+    margin-left: 15%;
+    padding-top: 2%;
+    font: bold 110% Trebuchet MS;
+}
+
+.linkDiv p a {
+    color: #A6A6A6;
+    text-decoration: underline;
+    margin-right: 1%;
+}
+
+.inputElements {
+    height: 70%;
+    margin-bottom: 2%;
+}
+
+#content p{
+
+}
+
+.recipientsDiv p{
+    color: #DCDCDC;
+    font: bold 140% Trebuchet MS;
+
+}
